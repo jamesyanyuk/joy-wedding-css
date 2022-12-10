@@ -1,0 +1,7 @@
+div:has(> div[class^='Footerstyles__StyledFooterWrapper']){
+  display: none;
+}
+
+div:has(> div[class*=' Footerstyles__StyledFooterWrapper']){
+  display: none;
+}
