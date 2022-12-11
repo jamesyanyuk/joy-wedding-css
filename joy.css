@@ -5,17 +5,29 @@ div:has(> div[class*=' Footerstyles__StyledFooterWrapper']){
   display: none;
 }
 
-div[class*='Columnsstyles__StyledContainer']{
+div[class*='Columnsstyles__StyledContainer-sc-1674tkq-0 hSLYsW imuYuU']{
   max-width: unset;
 }
 
-div[class*='Columnstyles__StyledColumnWrapper']{
+div[class*='Columnstyles__StyledColumnWrapper-sc-q833lj-0 qNXoy iuATrf']{
   margin-left: 0;
   max-width: unset;
-  flex: 1;
+  flex-grow: 1;
+}
+
+div[class*='Columnstyles__StyledColumnWrapper-sc-q833lj-0 qNXoy imgtdq']{
+  margin-left: 0;
+  max-width: unset;
+  flex-grow: 1;
 }
 
 div[class*='CoverPhotostyles__StyledCoverPhoto']{
   background-size: cover;
   filter: sepia(0.4) grayscale(0.1);
+}
+
+div[class*='joykit-box ijKUPT']{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
