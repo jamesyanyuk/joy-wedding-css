@@ -1,7 +1,21 @@
 div:has(> div[class^='Footerstyles__StyledFooterWrapper']){
   display: none;
 }
-
 div:has(> div[class*=' Footerstyles__StyledFooterWrapper']){
   display: none;
+}
+
+div[class*='Columnsstyles__StyledContainer']{
+  max-width: unset;
+}
+
+div[class*='Columnstyles__StyledColumnWrapper']{
+  margin-left: 0;
+  max-width: unset;
+  flex: 1;
+}
+
+div[class*='CoverPhotostyles__StyledCoverPhoto']{
+  background-size: cover;
+  filter: sepia(0.4) grayscale(0.1);
 }
